@@ -1,90 +1,165 @@
-body
-{
-    margin: 0;
+body{
     padding: 0;
+    margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;;
 }
-ul
-{
+.row{
     position: relative;
-    margin: 0;
-    padding: 0;
+}
+.main-title{
+    font-size: 25px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 45px;
+}
+.social-media-links-list{
     display: flex;
-}
-ul li 
-{
-    position: relative;
     list-style: none;
-    width: 60px;
-    height: 60px;
-    margin: 0 30px;
-    transform: rotate(-30deg) skew(25deg);
-    background: #ccc;
+    padding: 0;
 }
-ul li span
-{
-    position: absolute;
-    top: 0;
-    left: 0;
+.social-media-links-list  .social-media-list-itens{
+    margin: 0 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    transform: rotate(-30deg) skew(25deg);
+    display: flex;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.social-media-list-itens .visual-effect-span{
+    color: #ffffff;
+    transition: 0.5s;
     width: 100%;
     height: 100%;
-    background: #000;
-    transition: 0.5s;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 30px !important;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
 }
-ul li:hover span
-{
-    box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+.social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(1) {
+    transform: translate(5px, 0px);
 }
-ul li:hover span:nth-child(5)
-{
-    transform: translate(40px, -40px);
-    opacity: 1;
-}
-ul li:hover span:nth-child(4)
-{
-    transform: translate(30px, -30px);
-    opacity: 0.8;
-}
-ul li:hover span:nth-child(3)
-{
-    transform: translate(20px, -20px);
-    opacity: 0.6;
-}
-ul li:hover span:nth-child(2)
-{
+.social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(2) {
     transform: translate(10px, -10px);
-    opacity: 0.4;
 }
-ul li:hover span:nth-child(1)
-{
-    transform: translate(0,0);
-    opacity: .2;
+.social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(3) {
+    transform: translate(15px, -20px);
 }
-ul li:nth-child(1) span
-{
-    background: #3b5999;
+.social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(4) {
+    transform: translate(20px, -30px);
 }
-ul li:nth-child(2) span
-{
-    background: #55acee;
+
+.social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(5) {
+    transform: translate(25px,-40px)
 }
-ul li:nth-child(3) span
-{
-    background: #dd4b39;
+
+.facebook {
+    background-color: #0062ac50;
 }
-ul li:nth-child(4) span
-{
-    background: #0077b5;
+.social-media-list-itens:hover .facebook:nth-child(1){
+    background-color: #0062ac22 !important;
 }
-ul li:nth-child(5) span
-{
-    background: #e4405f;
+.social-media-list-itens:hover .facebook:nth-child(2){
+    background-color: #0062ac44 !important;
+}
+.social-media-list-itens:hover .facebook:nth-child(3){
+    background-color: #0062ac66 !important;
+}
+.social-media-list-itens:hover .facebook:nth-child(4){
+    background-color: #0062ac88 !important;
+}
+.social-media-list-itens:hover .facebook:nth-child(5){
+    background-color: #0062acFF !important;
+}
+
+.instagram {
+    background-color: #ac007b50;
+}
+.social-media-list-itens:hover .instagram:nth-child(1){
+    background-color: #ac007b22 !important;
+}
+.social-media-list-itens:hover .instagram:nth-child(2){
+    background-color: #ac007b44 !important;
+}
+.social-media-list-itens:hover .instagram:nth-child(3){
+    background-color: #ac007b66 !important;
+}
+.social-media-list-itens:hover .instagram:nth-child(4){
+    background-color: #ac007b88 !important;
+}
+.social-media-list-itens:hover .instagram:nth-child(5){
+    background-color: #ac007bFF !important;
+}
+
+.github {
+    background-color: #21212150;
+}
+.social-media-list-itens:hover .github:nth-child(1){
+    background-color: #21212122 !important;
+}
+.social-media-list-itens:hover .github:nth-child(2){
+    background-color: #21212144 !important;
+}
+.social-media-list-itens:hover .github:nth-child(3){
+    background-color: #21212166 !important;
+}
+.social-media-list-itens:hover .github:nth-child(4){
+    background-color: #21212188 !important;
+}
+.social-media-list-itens:hover .github:nth-child(5){
+    background-color: #212121FF !important;
+}
+
+.youtube {
+    background-color: #fc000050;
+}
+.social-media-list-itens:hover .youtube:nth-child(1){
+    background-color: #fc000022 !important;
+}
+.social-media-list-itens:hover .youtube:nth-child(2){
+    background-color: #fc000044 !important;
+}
+.social-media-list-itens:hover .youtube:nth-child(3){
+    background-color: #fc000066 !important;
+}
+.social-media-list-itens:hover .youtube:nth-child(4){
+    background-color: #fc000088 !important;
+}
+.social-media-list-itens:hover .youtube:nth-child(5){
+    background-color: #fc0000FF !important;
+}
+
+
+.linkedin {
+    background-color: #0a66c250;
+}
+.social-media-list-itens:hover .linkedin:nth-child(1){
+    background-color: #0a66c222 !important;
+}
+.social-media-list-itens:hover .linkedin:nth-child(2){
+    background-color: #0a66c244 !important;
+}
+.social-media-list-itens:hover .linkedin:nth-child(3){
+    background-color: #0a66c266 !important;
+}
+.social-media-list-itens:hover .linkedin:nth-child(4){
+    background-color: #0a66c288 !important;
+}
+.social-media-list-itens:hover .linkedin:nth-child(5){
+    background-color: #0a66c2FF !important;
+}
+
+@keyframes popup{
+    0%{
+        transform: translate(0, 0);
+    }
+    50% { transform: translate(50px, -50%);}
+    100%{
+        transform: translate(40px,-40px)
+    }
 }
