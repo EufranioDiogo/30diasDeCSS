@@ -19,23 +19,18 @@
 ## Regras pra mim 
 Eu criei algumas regras para mim que não quero impor a ninguém, mas fique à vontade para fazer o mesmo, se quiser!
 
-* Se eu não concluir o projeto do dia, as 5 primeiras pessoas a apontar no Twitter [@MilenaCarecho](https://twitter.com/MilenaCarecho) receberão R$5 via PicPay (total de R$25). Adicionando um pouco de motivação para mim! 😉 (Antes de solicitar qualquer coisa, verifique primeiro a hora no meu fuso horário - para mim, o fuso horário é Brasília - DF (GMT-3)) 💸
-* Vou criar um artigo tutorial no [medium](https://medium.com/@MilenaCarecho) para todos os projetos 
+* Se eu não concluir o projeto do dia, vou transferir 5.000 AOA para a minha amiga **Creuma Kuzola** que vai gostar de ter esse prazer, mas eu não vou lhe dar.
+* Vou tentar criar pequenos tutoriais no [medium](https://medium.com/@MilenaCarecho) para todos os projetos(não no dia da sua implementação).
 
 
 Gostou da ideia? 
 [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar 
 
-#### Youtube Referencias dos desafios
-[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) - 
-[Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A) - 
-[DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
-
-
-
-
-* [Dia 01 - Ícone de mídia social em camadas](#id01)
+### Referências dos vídeos que assisti
+* [Dia 01 - Ícone de mídia social em camadas](#id1)
+  * [Vídeo](https://www.youtube.com/watch?v=AEb_NhCHo9E)
 * [Dia 02 - Loader animado](#id02)
+  * [Vídeo](https://www.youtube.com/watch?v=j3rOA1spG8A)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
