@@ -32,6 +32,7 @@ Gostou da ideia?
 * [Dia 02 - Loader animado](#id02)
   * [Vídeo](https://www.youtube.com/watch?v=j3rOA1spG8A)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
+  * [Vídeo](https://www.youtube.com/watch?v=_cWKesvhFlg)
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
