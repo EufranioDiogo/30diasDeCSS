@@ -1,8 +1,9 @@
-## 🚀 30diasDeCSS 🚀
- 
- Fala Devs, beleza? 🖖
 
- 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 
+<h1 align="center">🚀 30diasDeCSS 🚀</h1>
+ 
+## Fala Devs, beleza? 🖖
+
+30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 
 
  ## Objetivo
 
@@ -19,12 +20,12 @@
 ## Regras pra mim 
 Eu criei algumas regras para mim que não quero impor a ninguém, mas fique à vontade para fazer o mesmo, se quiser!
 
-* Se eu não concluir o projeto do dia, vou transferir 5.000 AOA para a minha amiga **Creuma Kuzola** que vai gostar de ter esse prazer, mas eu não vou lhe dar.
-* Vou tentar criar pequenos tutoriais no [medium](https://medium.com/@MilenaCarecho) para todos os projetos(não no dia da sua implementação).
+* Se eu não concluir o projeto do dia, vou transferir 5.000 AOA para a minha amiga [Creuma Kuzola](https://github.com/Creuma-Kuzola) que vai gostar de ter esse prazer, mas eu não vou lhe dar.
+* Vou tentar criar pequenos tutoriais no [medium](https://medium.com/@EufranioDiogo) para todos os projetos(não no dia da sua implementação).
 
 
 Gostou da ideia? 
-[Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar 
+[Clique aqui](https://github.com/EufranioDiogo/30diasDeCSS/issues/1) para participar 
 
 ### Referências dos vídeos que assisti
 * [Dia 01 - Ícone de mídia social em camadas](#id1)
@@ -66,11 +67,11 @@ Gostou da ideia?
 ![Dia 01](https://user-images.githubusercontent.com/37448340/88348819-d38d7000-cd24-11ea-99d1-39b04afb77f2.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2001)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2001)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
-[Post LinkedIn](https://www.linkedin.com/posts/milenacarecho_30diascss-html5-css3-activity-6690824691449413632-7vau) 
+[Post LinkedIn](https://www.linkedin.com/posts/EufranioDiogo_30diascss-html5-css3-activity-6690824691449413632-7vau) 
 
 
 ##### O que eu aprendi
@@ -89,7 +90,7 @@ Gostou da ideia?
 ![Dia 02](https://user-images.githubusercontent.com/37448340/88348825-d5573380-cd24-11ea-832c-989e091167b8.gif)
 
 
-[Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2002)
+[Meu código](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2002)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -106,7 +107,7 @@ Gostou da ideia?
 <img src="Desafios/dia 03/gif/dia03.gif">
 
 
-[Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2003)
+[Meu código](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2003)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -122,7 +123,7 @@ Gostou da ideia?
 ##  Desafio dia 04 - Botão com efeito <a name="id04"></a>
 ![dia 04](https://user-images.githubusercontent.com/37448340/88242961-38819100-cc65-11ea-82b3-b541ff8cb3d7.gif)
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2004)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2004)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -140,7 +141,7 @@ Gostou da ideia?
 ##  Desafio dia 05 - Efeito pulsar <a name="id05"></a>
 ![dia 05](https://user-images.githubusercontent.com/37448340/88354131-4d7a2500-cd36-11ea-800e-eec277f17737.gif)
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2005)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2005)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -155,7 +156,7 @@ Gostou da ideia?
 ![dia 06](https://user-images.githubusercontent.com/37448340/88449709-5d216880-ce1f-11ea-924b-18acde214ce9.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2006)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2006)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -172,7 +173,7 @@ Gostou da ideia?
 ![dia 07](https://user-images.githubusercontent.com/37448340/88490911-412fdb00-cf75-11ea-806c-c41df0d1727e.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/Dia%2007)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/Dia%2007)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -188,7 +189,7 @@ Gostou da ideia?
 ![gif](https://user-images.githubusercontent.com/37448340/88534017-9c95b380-cfdd-11ea-9b54-b883fd9f9e77.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2008)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2008)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -204,7 +205,7 @@ Gostou da ideia?
 ![gif (1)](https://user-images.githubusercontent.com/37448340/88670759-d76e1900-d0bb-11ea-8158-edf1cdf41b97.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2009)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2009)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -223,7 +224,7 @@ Gostou da ideia?
 ![gif (2)](https://user-images.githubusercontent.com/37448340/88792562-caabfc80-d171-11ea-8c71-9756331e3ab6.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2010)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2010)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -238,7 +239,7 @@ Gostou da ideia?
 ![gif (3)](https://user-images.githubusercontent.com/37448340/88915715-29897880-d23b-11ea-9f58-8fe93214d3cc.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2011)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2011)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -256,7 +257,7 @@ Gostou da ideia?
 ##  Desafio dia 12 - Efeito de preenchimento ao passar o mouse<a name="id12"></a>
 ![gif (4)](https://user-images.githubusercontent.com/37448340/89034283-05976700-d30f-11ea-983f-5b0171212a2a.gif)
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2012)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2012)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -273,7 +274,7 @@ Gostou da ideia?
 ![gif (3)](https://user-images.githubusercontent.com/37448340/89111708-69b14c80-d42f-11ea-904b-1a4e5a1842e0.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2013)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2013)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -290,7 +291,7 @@ Gostou da ideia?
 
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2014)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2014)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -308,7 +309,7 @@ Gostou da ideia?
 ![gif (5)](https://user-images.githubusercontent.com/37448340/89242255-796b9500-d5d7-11ea-9e4f-4f4d499f5dc6.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2015)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2015)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -325,7 +326,7 @@ Gostou da ideia?
 ![gif (6)](https://user-images.githubusercontent.com/37448340/89361050-9a4bed00-d6a0-11ea-85c0-b331c7efcbed.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2016)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2016)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -343,7 +344,7 @@ Gostou da ideia?
 ![gif (7)](https://user-images.githubusercontent.com/37448340/89480128-f2e7bc80-d76a-11ea-8aaa-6987ee30a1c7.gif)
 
 
-[Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2017)
+[Meu código](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2017)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -359,7 +360,7 @@ Gostou da ideia?
 
 
 
-[Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2018)
+[Meu código](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2018)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -376,7 +377,7 @@ Gostou da ideia?
 
 
 
-[Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2019)
+[Meu código](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2019)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -395,7 +396,7 @@ Gostou da ideia?
 
 
 
-[Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2020)
+[Meu código](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2020)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -412,7 +413,7 @@ Gostou da ideia?
 ![gif (14)](https://user-images.githubusercontent.com/37448340/89748326-fd6ec280-da98-11ea-846f-cb7b68a1d777.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2021)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2021)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -430,7 +431,7 @@ Gostou da ideia?
 
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2022)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2022)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -449,7 +450,7 @@ Gostou da ideia?
 ![gif (17)](https://user-images.githubusercontent.com/37448340/89967422-caa70480-dc27-11ea-8a1f-80adfbaea9d4.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2023)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2023)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -465,7 +466,7 @@ Gostou da ideia?
 ![gif (18)](https://user-images.githubusercontent.com/37448340/90086193-3e144900-dcf0-11ea-94eb-39dbb4723e7a.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2024)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2024)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -483,7 +484,7 @@ Gostou da ideia?
 
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2025)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2025)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -499,7 +500,7 @@ Gostou da ideia?
 ![gif (21)](https://user-images.githubusercontent.com/37448340/90303547-1e625980-de85-11ea-82f9-b23d4fed96bc.gif)
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2026)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2026)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -517,7 +518,7 @@ Gostou da ideia?
 
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2027)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2027)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -534,7 +535,7 @@ Gostou da ideia?
 
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2028)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2028)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -551,7 +552,7 @@ Gostou da ideia?
 
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/Dia%2029)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/Dia%2029)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -567,7 +568,7 @@ Gostou da ideia?
 
 
 
-[Meu codigo](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2030)
+[Meu codigo](https://github.com/EufranioDiogo/30diasDeCSS/tree/master/Desafios/dia%2030)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
