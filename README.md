@@ -39,6 +39,7 @@ Gostou da ideia?
   * [Skew](https://www.tutorialrepublic.com/css-tutorial/css3-2d-transforms.php)
   * [Hover effect at pseudo Elementos](https://stackoverflow.com/questions/8874326/how-to-make-a-hover-effect-for-pseudo-elements)
 * [Dia 05 - Efeito pulsar](#id05)
+  * [box-shadow]
 * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
