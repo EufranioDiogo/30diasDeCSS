@@ -52,10 +52,12 @@ body {
 .btn:hover:before {
     left: 85%;
     transform: skew(-30deg, 0deg);
+    background-color: #bf0069;
 }
 
 .btn:hover:after {
     right: 85%;
     transform: skew(-30deg, 0deg);
+    background-color: #bf0069;
 }
 
