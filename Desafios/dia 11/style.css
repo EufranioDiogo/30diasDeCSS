@@ -1,44 +1,64 @@
-body
-{
+body {
+    padding: 0;
     margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
-    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.btn
-{
-    border: 2px solid rgb(0, 165, 124);
-    background: none;
-    color: rgb(0, 165, 124);
-    padding: 20px 40px;
-    font-size: 25px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.5s;
+
+.button {
+    padding: 15px 20px;
+    border: 2px solid orange;
+    color: orange;
+    text-align: center;
     position: relative;
-    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.2s;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-.btn:hover
-{
-    color: white;
-}
-.btn::before
-{
-    content: "";
+.button::after {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
+    height: 0;
     width: 100%;
-    height: 100%;
-    background: rgb(0, 165, 124);
-    z-index: -1;
+    background-color: orange;
     border-radius: 0 0 50% 50%;
-    height: 0%;
-    transition: all 0.5s;
+    transition: 0.5s;
+    z-index: -1;
+    
 }
-.btn:hover::before{
-    height: 190%;
+.button:hover:after{
+    height: 100%;
+    border-radius: 0;
+    animation: change-color linear infinite 10s 1s;
+}
+.button:hover{
+    color: white;
+    border: 2px solid #fff;
 }
 
+@keyframes change-color{
+    0% {
+        background-color: orange;
+
+    }
+    25% {
+        background-color: #00afd7;
+    }
+    50% {
+        background-color: #c4002e;
+    }
+    75% {
+        background-color: #00cd74;
+    }
+    100% {
+        background-color: orange;
+    }
+}
