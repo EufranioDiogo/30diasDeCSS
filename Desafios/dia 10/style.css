@@ -1,28 +1,66 @@
-body
-{
-    height: 100vh;
+body {
+    padding: 0;
+    margin: 0;
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: rgb(168, 244, 247);
-}
-h1
-{
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    font-family: 'Press Start 2P', cursive;
-}
-span::before
-{
-    content: '';
-    animation: word-swith 3s infinite;
+    background-color: #333;
 }
 
-@keyframes word-swith 
-{
-    0% {content: '💻'}
+.title {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bolder;
+    animation: colorSwitch 10s infinite;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ddd;
+}
 
-    50%{content: '🍕';}
+.title::after {
+    content: attr(amo1);
+    animation: wordSwitch 10s infinite linear;
+}
 
-    100%{content: '🎮';}
+@keyframes wordSwitch {
+    0% {
+        content: attr(amo1);
+    }
+    20% {
+        content: attr(amo2);
+    }
+    40% {
+        content: attr(amo3);
+    }
+    60% {
+        content: attr(amo4);
+    }
+    80% {
+        content: attr(amo5);
+    }
+    100% {
+        content: attr(amo1);
+    }
+}
+
+@keyframes colorSwitch {
+    0% {
+        color: #333;
+    }
+    20% {
+        color: #009fe3;
+    }
+    40% {
+        color: #e3bd00;
+    }
+    60% {
+        color: #00e30f;
+    }
+    80% {
+        color: #e3000f;
+    }
+    100% {
+        color: #333;
+    }
 }
