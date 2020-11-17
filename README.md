@@ -3,18 +3,18 @@
  
 ## Fala Devs, beleza? 🖖
 
-30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 
+30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3.
 
  ## Objetivo
 
-30 dias de CSS3 é um desafio que vou aceitar (e você também pode participar) a partir de 08 de Novembro de 2020, que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização de projetos 
+30 dias de CSS3 é um desafio que vou aceitar (e você também pode participar) a partir de 08 de Novembro de 2020, que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização dos desafios.
 
 ***Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de inicio fixa, cada um faz os seus 30 dias, eu ficarei honrada com sua participação 😉***
 
 ## Regras gerais
 
 * Realizar um projeto por dia
-* Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
+* Compartilhe seu progresso nas mídias sociais (Estado do Whatsapp, Twitter, Facebook, Linkedin, etc) usando a hashtag #30diasDeCSS
 * O projeto deve ser concluído até 23:59
 
 ## Regras pra mim 
@@ -39,12 +39,21 @@ Gostou da ideia?
   * [Skew](https://www.tutorialrepublic.com/css-tutorial/css3-2d-transforms.php)
   * [Hover effect at pseudo Elementos](https://stackoverflow.com/questions/8874326/how-to-make-a-hover-effect-for-pseudo-elements)
 * [Dia 05 - Efeito pulsar](#id05)
-  * [box-shadow]
+  * box-shadow
+  * DIV que fara o efeito.
 * [Dia 06 - Efeito lightning text](#id06)
+  * Working with delay and time of animation.
 * [Dia 07 - Preloader animado](#id07)  
+  * 
 * [Dia 08 - Coração batendo](#id08)
+  * Div's
+  * Pseudo elementos
 * [Dia 09 - Pendulo de Newton](#id09)
+  * Rotate
+  * Translate
 * [Dia 10 - Animação texto alternando](#id10)
+  * attr(CSS function)
+  * content(Pseudo elemento)
 * [Dia 11 - Botão com efeito hover](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
