@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#challenge12 h1{
+    font-size: 50px;
+    color: #ff7474ce;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    cursor: default;
+}
+#challenge12 h1::after{
+    content: '#30DiasCSS';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    color: #ff5959;
+    width: 0;
+    transition: 1.5s;
+    overflow: hidden;
+    cursor: default;
+}
+
+#challenge12 h1:hover:after{
+    width: 100%;
+}

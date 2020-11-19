@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+}
+.row{
+    position: relative;
+}
+.main-title{
+    font-size: 25px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 45px;
+}
+#challenge1 {
+    display: flex;
+}
+#challenge1 .social-media-links-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+#challenge1 .social-media-links-list  .social-media-list-itens{
+    margin: 0 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    transform: rotate(-30deg) skew(25deg);
+    display: flex;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+#challenge1 .social-media-list-itens .visual-effect-span{
+    color: #ffffff;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(1) {
+    transform: translate(5px, 0px);
+}
+#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(2) {
+    transform: translate(10px, -10px);
+}
+#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(3) {
+    transform: translate(15px, -20px);
+}
+#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(4) {
+    transform: translate(20px, -30px);
+}
+
+#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(5) {
+    transform: translate(25px,-40px)
+}
+
+#challenge1 .facebook {
+    background-color: #0062ac50;
+}
+#challenge1 .social-media-list-itens:hover .facebook:nth-child(1){
+    background-color: #0062ac22 !important;
+}
+#challenge1 .social-media-list-itens:hover .facebook:nth-child(2){
+    background-color: #0062ac44 !important;
+}
+#challenge1 .social-media-list-itens:hover .facebook:nth-child(3){
+    background-color: #0062ac66 !important;
+}
+#challenge1 .social-media-list-itens:hover .facebook:nth-child(4){
+    background-color: #0062ac88 !important;
+}
+#challenge1 .social-media-list-itens:hover .facebook:nth-child(5){
+    background-color: #0062acFF !important;
+}
+
+#challenge1 .instagram {
+    background-color: #ac007b50;
+}
+#challenge1 .social-media-list-itens:hover .instagram:nth-child(1){
+    background-color: #ac007b22 !important;
+}
+#challenge1 .social-media-list-itens:hover .instagram:nth-child(2){
+    background-color: #ac007b44 !important;
+}
+#challenge1 .social-media-list-itens:hover .instagram:nth-child(3){
+    background-color: #ac007b66 !important;
+}
+#challenge1 .social-media-list-itens:hover .instagram:nth-child(4){
+    background-color: #ac007b88 !important;
+}
+#challenge1 .social-media-list-itens:hover .instagram:nth-child(5){
+    background-color: #ac007bFF !important;
+}
+
+#challenge1 .github {
+    background-color: #21212150;
+}
+#challenge1 .social-media-list-itens:hover .github:nth-child(1){
+    background-color: #21212122 !important;
+}
+#challenge1 .social-media-list-itens:hover .github:nth-child(2){
+    background-color: #21212144 !important;
+}
+#challenge1 .social-media-list-itens:hover .github:nth-child(3){
+    background-color: #21212166 !important;
+}
+#challenge1 .social-media-list-itens:hover .github:nth-child(4){
+    background-color: #21212188 !important;
+}
+#challenge1 .social-media-list-itens:hover .github:nth-child(5){
+    background-color: #212121FF !important;
+}
+
+#challenge1 .youtube {
+    background-color: #fc000050;
+}
+#challenge1 .social-media-list-itens:hover .youtube:nth-child(1){
+    background-color: #fc000022 !important;
+}
+#challenge1 .social-media-list-itens:hover .youtube:nth-child(2){
+    background-color: #fc000044 !important;
+}
+#challenge1 .social-media-list-itens:hover .youtube:nth-child(3){
+    background-color: #fc000066 !important;
+}
+#challenge1 .social-media-list-itens:hover .youtube:nth-child(4){
+    background-color: #fc000088 !important;
+}
+#challenge1 .social-media-list-itens:hover .youtube:nth-child(5){
+    background-color: #fc0000FF !important;
+}
+
+
+#challenge1 .linkedin {
+    background-color: #0a66c250;
+}
+#challenge1 .social-media-list-itens:hover .linkedin:nth-child(1){
+    background-color: #0a66c222 !important;
+}
+#challenge1 .social-media-list-itens:hover .linkedin:nth-child(2){
+    background-color: #0a66c244 !important;
+}
+#challenge1 .social-media-list-itens:hover .linkedin:nth-child(3){
+    background-color: #0a66c266 !important;
+}
+#challenge1 .social-media-list-itens:hover .linkedin:nth-child(4){
+    background-color: #0a66c288 !important;
+}
+#challenge1 .social-media-list-itens:hover .linkedin:nth-child(5){
+    background-color: #0a66c2FF !important;
+}
+
+@keyframes popup{
+    0%{
+        transform: translate(0, 0);
+    }
+    50% { transform: translate(50px, -50%);}
+    100%{
+        transform: translate(40px,-40px)
+    }
+}

@@ -4,39 +4,84 @@
 }
 html {
     scroll-behavior: smooth;
+    height: 62.5%;
 }
 body {
-    background-color: #0b0b0b;
-    color: #ddd;
-    font-family: 'Courier New', Courier, monospace;
-    height: 62.5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: auto;
+    background-color: #f4f4f4 !important;
+    color: #1a1a1a !important;
+    font-family: 'Big Shoulders Stencil Display', cursive, 'Courier New', Courier, monospace !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    flex: auto !important;
+    width: 100% !important;
+    height: auto !important;
 }
 h2 {
-    font-size: 2.4rem;
-    margin: 1.6rem 0;
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #333;
 }
 p {
-    font-size: 1.2rem;
-    margin: 0 0 3.2rem 0;
+    font-size: 1.6rem;
+    margin: 1rem 0;
     line-height: 1.5;
-    text-align: justify;
+    color: #0000009a;
 }
 
 .header {
-    padding: 1.5rem 0;
-    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.18);
+    padding: 1rem 0;
+    border-bottom: 0.1rem solid #0000001d;
     width: 100%;
+    height: 4rem;
     text-align: center;
 }
+.header h1 {
+    font-size: 3rem;
+    color: #fff;
+    animation: header-animation linear infinite 5s;
+}
+@keyframes header-animation {
+    0% { 
+        color: #fff;
+    }
+    10% { 
+        color: #ff4a4a;
+    }
+    20% { 
+        color: #ffb10a;
+    }
+    30% { 
+        color: #1aafff;
+    }
+    40% { 
+        color: #34ff52;
+    }
+    50% { 
+        color: #ce00c1;
+    }
+    60% { 
+        color: #ff89ed;
+    }
+    70% { 
+        color: #a4a4a4;
+    }
+    80% { 
+        color: #28f1ff;
+    }
+    90% { 
+        color: rgb(19, 203, 160);
+    }
+    100% { 
+        color: #fff;
+    }
+}
 .main-container {
-    margin-top: 2rem;
+    margin: 2rem 0;
     width: 75%;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .list-of-days {
     list-style-type: none;
@@ -44,18 +89,20 @@ p {
     flex-wrap: wrap;
 }
 .list-of-days .day {
-    margin: 1rem 2rem;
-    margin-left: 0;
+    margin: 1rem 2rem 1rem 0;
 }
 .list-of-days .day a {
-    color: rgba(221, 221, 221, 0.879);
+    padding: 1rem;
+}
+a {
+    color: #00bcf0d0;
     font-size: 1.2rem;
 }
 .list-of-days .day:hover {
     animation: jump linear 0.5s;
 }
-.list-of-days .day a:hover {
-    color: #fff;
+a:hover {
+    color: #00c8ff;
 }
 
 @keyframes jump {
@@ -76,372 +123,9 @@ p {
     border-radius: 1rem;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 3.5rem 2rem;
 }
 
-/*CHALLENGE DAY 1*/
-#challenge1 {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    display: flex;
+#challenge6 {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-}
-
-#challenge1 .social-media-links-list{
-    display: flex;
-    list-style: none;
-    padding: 0;
-}
-#challenge1 .social-media-links-list  .social-media-list-itens{
-    margin: 0 25px;
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    transform: rotate(-30deg) skew(25deg);
-    display: flex;
-    transition: 0.5s;
-    border-radius: 50%;
-}
-#challenge1 .social-media-list-itens .visual-effect-span{
-    color: #ffffff;
-    transition: 0.5s;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 5px;
-}
-#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(1) {
-    transform: translate(5px, 0px);
-}
-#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(2) {
-    transform: translate(10px, -10px);
-}
-#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(3) {
-    transform: translate(15px, -20px);
-}
-#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(4) {
-    transform: translate(20px, -30px);
-}
-
-#challenge1 .social-media-links-list .social-media-list-itens:hover .visual-effect-span:nth-child(5) {
-    transform: translate(25px,-40px)
-}
-
-#challenge1 .facebook {
-    background-color: #0062ac50;
-}
-#challenge1 .social-media-list-itens:hover .facebook:nth-child(1){
-    background-color: #0062ac22 !important;
-}
-#challenge1 .social-media-list-itens:hover .facebook:nth-child(2){
-    background-color: #0062ac44 !important;
-}
-#challenge1 .social-media-list-itens:hover .facebook:nth-child(3){
-    background-color: #0062ac66 !important;
-}
-#challenge1 .social-media-list-itens:hover .facebook:nth-child(4){
-    background-color: #0062ac88 !important;
-}
-#challenge1 .social-media-list-itens:hover .facebook:nth-child(5){
-    background-color: #0062acFF !important;
-}
-
-#challenge1 .instagram {
-    background-color: #ac007b50;
-}
-#challenge1 .social-media-list-itens:hover .instagram:nth-child(1){
-    background-color: #ac007b22 !important;
-}
-#challenge1 .social-media-list-itens:hover .instagram:nth-child(2){
-    background-color: #ac007b44 !important;
-}
-#challenge1 .social-media-list-itens:hover .instagram:nth-child(3){
-    background-color: #ac007b66 !important;
-}
-#challenge1 .social-media-list-itens:hover .instagram:nth-child(4){
-    background-color: #ac007b88 !important;
-}
-#challenge1 .social-media-list-itens:hover .instagram:nth-child(5){
-    background-color: #ac007bFF !important;
-}
-
-#challenge1 .github {
-    background-color: #21212150;
-}
-#challenge1 .social-media-list-itens:hover .github:nth-child(1){
-    background-color: #21212122 !important;
-}
-#challenge1 .social-media-list-itens:hover .github:nth-child(2){
-    background-color: #21212144 !important;
-}
-#challenge1 .social-media-list-itens:hover .github:nth-child(3){
-    background-color: #21212166 !important;
-}
-#challenge1 .social-media-list-itens:hover .github:nth-child(4){
-    background-color: #21212188 !important;
-}
-#challenge1 .social-media-list-itens:hover .github:nth-child(5){
-    background-color: #212121FF !important;
-}
-
-#challenge1 .youtube {
-    background-color: #fc000050;
-}
-#challenge1 .social-media-list-itens:hover .youtube:nth-child(1){
-    background-color: #fc000022 !important;
-}
-#challenge1 .social-media-list-itens:hover .youtube:nth-child(2){
-    background-color: #fc000044 !important;
-}
-#challenge1 .social-media-list-itens:hover .youtube:nth-child(3){
-    background-color: #fc000066 !important;
-}
-#challenge1 .social-media-list-itens:hover .youtube:nth-child(4){
-    background-color: #fc000088 !important;
-}
-#challenge1 .social-media-list-itens:hover .youtube:nth-child(5){
-    background-color: #fc0000FF !important;
-}
-
-
-#challenge1 .linkedin {
-    background-color: #0a66c250;
-}
-#challenge1 .social-media-list-itens:hover .linkedin:nth-child(1){
-    background-color: #0a66c222 !important;
-}
-#challenge1 .social-media-list-itens:hover .linkedin:nth-child(2){
-    background-color: #0a66c244 !important;
-}
-#challenge1 .social-media-list-itens:hover .linkedin:nth-child(3){
-    background-color: #0a66c266 !important;
-}
-#challenge1 .social-media-list-itens:hover .linkedin:nth-child(4){
-    background-color: #0a66c288 !important;
-}
-#challenge1 .social-media-list-itens:hover .linkedin:nth-child(5){
-    background-color: #0a66c2FF !important;
-}
-
-@keyframes popup{
-    0%{
-        transform: translate(0, 0);
-    }
-    50% { transform: translate(50px, -50%);}
-    100%{
-        transform: translate(40px,-40px)
-    }
-}
-
-
-/*CHALLENGE DAY 2*/
-#challenge2 {
-    padding: 2rem;
-}
-#challenge2 .spinner {
-    width: 60px;
-    height: 60px;
-    border: 3px solid rgba(0, 0, 0, 0.164);
-    border-radius: 50%;
-    border-left: 3px solid rgba(255, 3, 192, 0.728);
-    animation: spin 0.85s linear infinite;
-    overflow: hidden;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-        border-left: 3px solid rgba(255, 3, 192, 0.728);
-    }
-    25% {
-        transform: rotate(90deg);
-        border-left: 3px solid rgba(255, 3, 3, 0.728);
-    }
-    50% {
-        transform: rotate(180deg) scale(1.050);
-        border-left: 3px solid rgba(255, 3, 192, 0.728);
-    }
-    75% {
-        transform: rotate(270deg) scale(1.075);
-        border-left: 3px solid rgba(255, 3, 3, 0.728);
-    }
-    100% {
-        transform: rotate(360deg) scale(1.0);
-        border-left: 3px solid rgba(255, 3, 192, 0.728);
-    }
-}
-
-/*CHALLENGE DAY 3*/
-#challenge3 {
-    position: relative;
-    flex: auto;
-}
-#challenge3 section {
-    width: 80%;
-    height: 25rem;
-    position: relative;
-    display: flex;
-    color: #333;
-    overflow: hidden;
-}
-
-#challenge3 .text-container {
-    position: relative;
-    width: 50%;
-    overflow: hidden;
-    background-color: #00a2ff;
-    color: #fff;
-}
-
-#challenge3 .text-content {
-    font-size: 5.5rem;
-    top: 50%;
-    font-family: Goldman, 'Courier New', Courier, monospace;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: animate 20s linear infinite;
-    line-height: 220px;
-    background-color: #ddd;
-}
-
-@keyframes animate {
-    0% {
-        transform: translate(0%, -50%);
-    }
-    100% {
-        transform: translate(-50%, -50%);
-    }
-}
-
-@keyframes zoomInOut {
-    0% {
-        transform: translate(-40%, -50%);
-    }
-    50% {
-        transform: translate(-60%, -50%);
-    }
-    100% {
-        transform: translate(-40%, -50%);
-    }
-}
-
-
-/*CHALLENGE DAY 4*/
-
-#challenge4 .btn {
-    border: 4px solid #fff;
-    color: #fff;
-    background-color: #333;
-    padding: 10px;
-    cursor: pointer;
-    position: relative;
-    font-size: 20px;
-    transition: 1.0s
-}
-
-#challenge4 .btn::before {
-    content: "";
-    position: absolute;
-    width: 10%;
-    background-color: #333;
-    top: -8%;
-    left: 5%;
-    height: 4px;
-    transition: 1.0s;
-    transform: skew(30deg, 0deg);
-}
-#challenge4 .btn::after {
-    content: "";
-    position: absolute;
-    width: 10%;
-    background-color: #333;
-    bottom: -10%;
-    right: 5%;
-    height: 4px;
-    transition: 1.0s;
-    transform: skew(30deg, 0deg);
-}
-
-#challenge4 .btn:hover{
-    background-color: #fff;
-    color: #333;
-    transform: scale(1.15);
-    font-weight: 700;
-}
-
-#challenge4 .btn:hover:before {
-    left: 85%;
-    transform: skew(-30deg, 0deg);
-    background-color: #bf0069;
-}
-
-#challenge4 .btn:hover:after {
-    right: 85%;
-    transform: skew(-30deg, 0deg);
-    background-color: #bf0069;
-}
-
-/*DAY 5*/
-
-#challenge5 .center {
-    width: 100px;
-    height: 100px;
-    position: relative;
-}
-#challenge5 .pulse-effect {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #009191b5;
-    border-radius: 50%;
-    animation: pulseanimation linear 2s infinite;
-}
-
-#challenge5 .pulse-button {
-    font-size: 13px;
-    color: #FFF;
-    background: #009191;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-    border: none;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
-    transition: 1s;
-}
-
-#challenge5 .pulse-button:hover {
-    background-color: #fff;
-    color: #009191;
-}
-@keyframes pulseanimation {
-    0% {
-        width: 50%;
-        height: 50%;
-        opacity: 0;
-    }
-    50% {
-        width: 100%;
-        height: 100%;
-        opacity: 1;
-    }
-    100% { 
-        width: 50%;
-        height: 50%;
-        opacity: 0;
-    }
 }

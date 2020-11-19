@@ -8,10 +8,8 @@ body {
     background-color: rgba(0, 0, 0, 0.126);
 }
 
-section {
+#challenge3 {
     background-color: #ff0044;
-    width: 80%;
-    height: 80%;
     position: relative;
     display: flex;
     color: #333;
@@ -24,18 +22,16 @@ section {
     animation: zoomInOut 5s linear infinite;
 }
 
-.text-container {
+#challenge3 .text-container {
     position: relative;
-    width: 50%;
     overflow: hidden;
     background-color: #00a2ff;
     color: #fff;
 }
 
-.text-content {
+#challenge3 .text-content {
     position: absolute;
     font-size: 5.5rem;
-    top: 50%;
     font-family: Goldman, 'Courier New', Courier, monospace;
     overflow: hidden;
     white-space: nowrap;

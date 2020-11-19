@@ -10,18 +10,18 @@ body {
     justify-content: center;
 }
 
-.name-letters-list{
+#challenge6 .name-letters-list{
     list-style: none;
     display: flex;
 }
-.text {
+#challenge6 .name-letters-list .text {
     color: #ddddddb6;
     font-size: 3.5rem;
     margin: 0 10px;
     font-family: Arial, 'Courier New', Courier, monospace;
     text-transform: uppercase;
 }
-.name-letters-list li {
+#challenge6 .name-letters-list li {
     animation: letterlighting linear 4.0s infinite;
 }
 @keyframes letterlighting {
@@ -35,38 +35,40 @@ body {
         color: #ddddddb6;
     }
 }
-.name-letters-list li:nth-child(8) {
+#challenge6 .name-letters-list li:nth-child(8) {
     animation-delay: 4.0s;
 }
-.name-letters-list li:nth-child(7) {
+#challenge6 .name-letters-list li:nth-child(7) {
     animation-delay: 3.5s;
 }
-.name-letters-list li:nth-child(6) {
+#challenge6 .name-letters-list li:nth-child(6) {
     animation-delay: 3.0s;
 }
-.name-letters-list li:nth-child(5) {
+#challenge6 .name-letters-list li:nth-child(5) {
     animation-delay: 2.5s;
 }
-.name-letters-list li:nth-child(4) {
+#challenge6 .name-letters-list li:nth-child(4) {
     animation-delay: 2.0s;
 }
-.name-letters-list li:nth-child(3) {
+#challenge6 .name-letters-list li:nth-child(3) {
     animation-delay: 1.5s;
 }
-.name-letters-list li:nth-child(2) {
+#challenge6 .name-letters-list li:nth-child(2) {
     animation-delay: 1.0s;
 }
-.name-letters-list li:nth-child(1) {
+#challenge6 .name-letters-list li:nth-child(1) {
     animation-delay: 0.5s;
 }
 
-h1.text {
+#challenge6 h1.text {
     position: relative;
     margin: 0;
     color: #FFFFFF;
     stroke: 2px #ddddddb6;
+    text-transform: uppercase;
+    font-size: 35px;
 }
-h1.text::after {
+#challenge6 h1.text::after {
     content: "EUFRÁNIO";
     border-right: 1px solid #ea005e;
     color: #ea005e;

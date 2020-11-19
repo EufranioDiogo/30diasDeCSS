@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cdcdcd;
+    height: 100vh;
+}
+
+#challenge2 .spinner {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-left: 3px solid rgba(255, 3, 192, 0.728);
+    animation: spin 0.85s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg) ;
+    }
+    100% {
+        transform: rotate(360deg) ;
+    }
+}

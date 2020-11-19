@@ -56,12 +56,12 @@ body {
     align-items: center;
     background-color: #131c1f;
 }
-.center {
+#challenge5 .center {
     width: 100px;
     height: 100px;
     position: relative;
 }
-.pulse-effect {
+#challenge5 .pulse-effect {
     position: absolute;
     width: 50%;
     height: 50%;
@@ -73,7 +73,7 @@ body {
     animation: pulseanimation linear 2s infinite;
 }
 
-.pulse-button {
+#challenge5 .pulse-button {
     font-size: 13px;
     color: #FFF;
     background: #009191;
@@ -91,7 +91,7 @@ body {
     transition: 1s;
 }
 
-.pulse-button:hover {
+#challenge5 .pulse-button:hover {
     background-color: #fff;
     color: #009191;
 }
