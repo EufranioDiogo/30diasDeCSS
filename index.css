@@ -39,11 +39,11 @@ p {
 .header h1 {
     font-size: 3rem;
     color: #fff;
-    animation: header-animation linear infinite 5s;
+    animation: header-animation linear infinite 20s;
 }
 @keyframes header-animation {
     0% { 
-        color: #fff;
+        color: #1e1e1e;
     }
     10% { 
         color: #ff4a4a;
@@ -70,10 +70,10 @@ p {
         color: #28f1ff;
     }
     90% { 
-        color: rgb(19, 203, 160);
+        color: #3513cb;
     }
     100% { 
-        color: #fff;
+        color: #1e1e1e;
     }
 }
 .main-container {
