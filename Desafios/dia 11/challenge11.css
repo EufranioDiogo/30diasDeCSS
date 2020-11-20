@@ -8,7 +8,7 @@ body {
     align-items: center;
 }
 
-.button {
+#challenge11 .button {
     padding: 15px 20px;
     border: 2px solid orange;
     color: orange;
@@ -21,7 +21,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
 }
-.button::after {
+#challenge11 .button::after {
     content: '';
     position: absolute;
     top: 0;
@@ -34,12 +34,12 @@ body {
     z-index: -1;
     
 }
-.button:hover:after{
+#challenge11 .button:hover:after{
     height: 100%;
     border-radius: 0;
     animation: change-color linear infinite 10s 1s;
 }
-.button:hover{
+#challenge11 .button:hover{
     color: white;
     border: 2px solid #fff;
 }

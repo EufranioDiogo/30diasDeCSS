@@ -7,13 +7,13 @@ body {
     height: 100vh;
 }
 
-.loader {
+#challenge7 .loader {
     position: relative;
     width: 100px;
     height: 100px;
 }
 
-.loader div {
+#challenge7 .loader div {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -22,27 +22,27 @@ body {
     transition: 0.5s;
 }
 
-.loader div:nth-child(1) {
+#challenge7 .loader div:nth-child(1) {
     top: 0;
     right: 0;
-    animation: animation1 4s infinite linear;
+    animation: square-animation1 4s infinite linear;
 }
 
-.loader div:nth-child(2) {
+#challenge7 .loader div:nth-child(2) {
     left: 0;
     top: 0;
-    animation: animation2 4s infinite linear;
+    animation: square-animation2 4s infinite linear;
     animation-delay: 0.5s;
 }
 
-.loader div:nth-child(3) {
+#challenge7 .loader div:nth-child(3) {
     left: 0;
     bottom: 0;
-    animation: animation3 4s infinite linear;
+    animation: square-animation3 4s infinite linear;
     animation-delay: 0.8s;
 }
 
-@keyframes animation1 {
+@keyframes square-animation1 {
     0% {
         transform: translate(0, 0);
     }
@@ -60,7 +60,7 @@ body {
     }
 }
 
-@keyframes animation2 {
+@keyframes square-animation2 {
     0% {
         transform: translate(0, 0);
     }
@@ -78,7 +78,7 @@ body {
     }
 }
 
-@keyframes animation3 {
+@keyframes square-animation3 {
     0% {
         transform: translate(0, 0);
     }

@@ -8,7 +8,7 @@ body {
     background-color: #333;
 }
 
-.title {
+#challenge10 .title {
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
     font-size: 35px;
     font-weight: bolder;
@@ -18,7 +18,7 @@ body {
     background-color: #ddd;
 }
 
-.title::after {
+#challenge10 .title::after {
     content: attr(amo1);
     animation: wordSwitch 10s infinite linear;
 }

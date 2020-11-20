@@ -8,15 +8,15 @@ body {
     align-items: center;
 }
 
-.coracao {
+#challenge8 .coracao {
     position: relative;
     width: 200px;
     height: 150px;
-    background-color: #FFF;
+    background-color: transparent;
     animation: coracaoBatendo 5s infinite linear;
 }
 
-.coracao .parte-coracao {
+#challenge8 .coracao .parte-coracao {
     position: absolute;
     width: 45%;
     height: 100%;
@@ -24,11 +24,11 @@ body {
     background-color: #ff9999;
 }
 
-.parte-coracao:nth-child(1) {
+#challenge8 .parte-coracao:nth-child(1) {
     transform: rotate(-45deg)
 }
 
-.parte-coracao:nth-child(2) {
+#challenge8 .parte-coracao:nth-child(2) {
     transform: rotate(45deg);
     right: 34%;
 }

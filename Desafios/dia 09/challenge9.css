@@ -4,44 +4,43 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #333;
+	background-color: #fff;
 	height: 100vh;
 }
 
-.pendulo {
+#challenge9 .pendulo {
 	position: relative;
 	display: flex;
 	box-sizing: border-box;
-	border-top: 5px solid white;
+	border-top: 5px solid #b00087;
 	width: 30%;
-	margin-top: -150px;
 	justify-content: center;
 	overflow: hidden;
 }
 
-.corda-pendulo {
+#challenge9 .corda-pendulo {
 	position: relative;
 	width: 5px;
 	height: 120px;
-	background: #fff;
+	background: #b00087;
 	margin: 0 0.75rem;
 }
 
-.corda-pendulo span {
+#challenge9 .corda-pendulo span {
 	position: absolute;
 	width: 30px;
 	height: 30px;
-	background: #fff;
+	background: #b00087;
 	left: 50%;
 	transform: translateX(-50%);
 	border-radius: 50%;
 	bottom: 0;
 }
 
-.corda-pendulo:nth-child(1) {
+#challenge9 .corda-pendulo:nth-child(1) {
 	animation: pendulo1 2s linear infinite;
 }
-div.corda-pendulo:last-child{
+#challenge9 div.corda-pendulo:last-child{
 	animation: pendulo4 2s linear infinite 1s;
 }
 
