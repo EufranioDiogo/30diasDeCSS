@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#challenge15 h1 {
+    font-family: Arial, sans-serif;
+    color: #008fa9;
+    text-shadow: 0 20px 2px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 150px;
+    line-height: 1.5;
+    letter-spacing: 15px;
+    animation: text-floating linear infinite 5s;
+}
+
+@keyframes text-floating {
+    0% {
+        transform: rotate(0) scale(0);
+    }
+    25% {
+        transform: rotate(10deg) scale(1.05);
+    }
+    50% {
+        transform: rotate(0) scale(0);
+    }
+    75% {
+        transform: rotate(-10deg) scale(1.05);
+    }
+    100% {
+        transform: rotate(0) scale(0);
+    }
+}
