@@ -1,0 +1,49 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(255, 255, 255);
+}
+
+#challenge16 {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+#challenge16 a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+    border: 3px solid white;
+    padding: 40px 80px;
+	position: relative;
+	transition: all 1s;
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	background: linear-gradient(to top, #e60000, #008aa2);
+}
+
+#challenge16 a::before {
+	content: '✔️ Dia 16';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #c1f1c8f6;
+	color: #005a00;
+	transition: all 1s;
+	transform: translateY(-100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#challenge16 a:hover::before {
+	transform: translateY(0%);
+}
