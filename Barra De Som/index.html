@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="volume-div">
+        <div class="volume-bar" id="volume-bar-1">
+
+        </div>
+        <div class="volume-bar" id="volume-bar-1">
+            
+        </div>
+        <div class="volume-bar" id="volume-bar-1">
+            
+        </div>
+        <div class="volume-bar" id="volume-bar-1">
+            
+        </div>
+        <div class="volume-bar" id="volume-bar-1">
+            
+        </div>
+        <div class="volume-bar" id="volume-bar-1">
+            
+        </div>
+    </div>
+
+    <script>
+        let volumeBar = document.querySelectorAll('.volume-bar');
+        let limit = 255;
+
+        setInterval(function() {
+            for(let i = 0; i < volumeBar.length; i++) {
+                volumeBar[i].style.backgroundColor = `rgb(${Math.floor((Math.random() * limit) + 1)}, ${Math.floor((Math.random() * limit) + 1)}, ${Math.floor((Math.random() * limit) + 1)})`
+            }
+        }, 1000);
+        
+    </script>
+</body>
+</html>

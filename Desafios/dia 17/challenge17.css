@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+}
+#challenge17 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#challenge17 .loading {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #0099eb;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.315);
+    animation: loading-square 10s linear infinite;
+}
+
+@keyframes loading-square {
+    0% { 
+        transform: rotateX(0) rotateY(0deg);
+    }
+    50% {
+        transform: rotateX(0) rotateY(-180deg);
+    }
+    100% {
+        transform: rotateX(180deg) rotateY(-180deg);
+    }
+}
