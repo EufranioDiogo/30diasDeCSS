@@ -18,18 +18,18 @@ body {
 
 @keyframes text-floating {
     0% {
-        transform: rotate(0) scale(0);
+        transform: rotate(0);
     }
     25% {
-        transform: rotate(10deg) scale(1.05);
+        transform: rotate(10deg);
     }
     50% {
-        transform: rotate(0) scale(0);
+        transform: rotate(0);
     }
     75% {
-        transform: rotate(-10deg) scale(1.05);
+        transform: rotate(-10deg);
     }
     100% {
-        transform: rotate(0) scale(0);
+        transform: rotate(0);
     }
 }
