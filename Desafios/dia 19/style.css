@@ -10,19 +10,19 @@ body
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background: #000;
+    background: rgb(255, 255, 255);
     overflow: hidden;
 }
 .brilho
 {
     position: relative;
     min-width: 750px;
-    height: 750;
+    height: 750px;
     margin: -150px;
     transform-origin: right;
-    animation: corMudando 5s linear infinite;
+    animation: cor-mundando 6s linear infinite;
 }
-@keyframes corMudando
+@keyframes cor-mundando
 {
     0%
     {
@@ -53,12 +53,12 @@ body
     position: absolute;
     top: 50%;
     left: -8px;
-    width: 15px;
-    height: 15px;
-    background: #f00;
+    width: 20px;
+    height: 20px;
+    background: rgb(0, 255, 251);
     border-radius: 50%;
 }
-.brilho span:nth-child(3n + 1):before
+.brilho span:nth-child(1):before
 {
     background: rgba(134,255,0,1);
     box-shadow: 0 0 20px rgba(134,255,0,1),
@@ -67,7 +67,7 @@ body
                 0 0 80px rgba(134,255,0,1),
                 0 0 0 8px rgba(134,255,0,.1);
 }
-.brilho span:nth-child(3n + 2):before
+.brilho span:nth-child(2):before
 {
     background: rgba(255,214,0,1);
     box-shadow: 0 0 20px rgba(255,214,0,1),
@@ -76,7 +76,7 @@ body
                 0 0 80px rgba(255,214,0,1),
                 0 0 0 8px rgba(255,214,0,.1);
 }
-.brilho span:nth-child(3n + 3):before
+.brilho span:nth-child(3):before
 {
     background: rgba(0,226,255,1);
     box-shadow: 0 0 20px rgba(0,226,255,1),
@@ -85,15 +85,15 @@ body
                 0 0 80px rgba(0,226,255,1),
                 0 0 0 8px rgba(0,226,255,.1);
 }
-.brilho span:nth-child(3n+1)
+.brilho span:nth-child(1)
 {
     animation: animate 10s alternate infinite;
 }
-.brilho span:nth-child(3n+2)
+.brilho span:nth-child(2)
 {
     animation: animate-reverse 3s alternate infinite;
 }
-.brilho span:nth-child(3n+3)
+.brilho span:nth-child(3)
 {
     animation: animate 8s alternate infinite;
 }
@@ -101,11 +101,11 @@ body
 {
     0%
     {
-        transform: rotate(0deg);
+        transform: rotate(0deg) scale(1.0);
     }
     100%
     {
-        transform: rotate(360deg);
+        transform: rotate(360deg) scale(1.1);
     }
 }
 @keyframes animate-reverse
