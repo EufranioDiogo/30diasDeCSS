@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#challenge21 .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    animation: move-snake 10s linear infinite;
+}
+
+#challenge21 .container span {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #00bedf;
+    margin: 0 5px;
+    animation: quicking-balls linear infinite alternate-reverse 1s, change-color linear infinite 2s;
+}
+
+#challenge21 .container span:nth-child(2) {
+    animation-delay: 0.2s
+}
+
+#challenge21 .container span:nth-child(3) {
+    animation-delay: 0.4s
+}
+
+#challenge21 .container span:nth-child(4) {
+    animation-delay: 0.6s
+}
+
+#challenge21 .container span:nth-child(5) {
+    animation-delay: 0.8s
+}
+
+#challenge21 .container span:nth-child(6) {
+    animation-delay: 1s
+}
+
+@keyframes quicking-balls {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-100px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes change-color {
+    0% {
+        background-color: #00bedf;
+    }
+    25% {
+        background-color: #00df38;
+    }
+    50% {
+        background-color: #dfa400;;
+    }
+    75% {
+        background-color: #df0086;
+    }
+    100% {
+        background-color: #00bedf;
+    }
+}
+
+@keyframes move-snake {
+    0% {
+        transform: translateX(0)
+    }
+    25% {
+        transform: translateX(-100%)
+    }
+    50% {
+        transform: translateX(0)
+    }
+    75% {
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
