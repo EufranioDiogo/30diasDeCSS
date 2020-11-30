@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#challenge23 a {
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid #333;
+    color: #333;
+    position: relative;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#challenge23 a:hover {
+    border: 1px solid #0bb6ff;
+    color: #0bb6ff;
+    animation: hello-animation 0.5s linear 1;
+}
+
+@keyframes hello-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
