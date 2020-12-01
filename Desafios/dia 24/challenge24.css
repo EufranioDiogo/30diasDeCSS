@@ -1,0 +1,135 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#challenge24 .container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+#challenge24 .container span {
+    width: 33.3%;
+    height: 33.3%;
+    position: absolute;
+    background-color: #333;
+}
+#challenge24 .container span:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animation-square-1 linear infinite 3s;
+    background-color: #ffe100;
+}
+
+#challenge24 .container span:nth-child(2) {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    animation: animation-square-2 linear infinite 3s;
+    background-color: #00a6ff;
+}
+#challenge24 .container span:nth-child(3) {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    animation: animation-square-3 linear infinite 3s;
+    background-color: #8800ff;
+}
+#challenge24 .container span:nth-child(4) {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animation-square-4 linear infinite 3s;
+    background-color: #00ff88;
+}
+
+
+@keyframes animation-square-1 {
+    0% {
+        transform: translate(-50%, 0) rotate(0);
+    }
+    10% {
+        transform: translate(-50%, 0) rotate(0);
+    }
+    25% {
+        transform: translateX(-50%) rotate(45deg);
+    }
+    50% {
+        transform: translate(-50%, 30%) rotate(45deg);
+    }
+    75% {
+        transform: translate(-50%, 0) rotate(45deg);
+    }
+    100% {
+        transform: translate(-50%, 0) rotate(0);
+    }
+}
+
+@keyframes animation-square-2 {
+    0% {
+        transform: translate(0, -50%) rotate(0);
+    }
+    10% {
+        transform: translate(0, -50%) rotate(0);
+    }
+    25% {
+        transform: translate(0%, -50%) rotate(45deg);
+    }
+    50% {
+        transform: translate(30%, -50%) rotate(45deg);
+    }
+    75% {
+        transform: translate(0%, -50%) rotate(45deg);
+    }
+    100% {
+        transform: translate(0, -50%) rotate(0);
+    }
+}
+
+
+@keyframes animation-square-3 {
+    0% {
+        transform: translate(0, -50%) rotate(0);
+    }
+    10% {
+        transform: translate(0, -50%) rotate(0);
+    }
+    25% {
+        transform: translate(0%, -50%) rotate(45deg);
+    }
+    50% {
+        transform: translate(-30%, -50%) rotate(45deg);
+    }
+    75% {
+        transform: translate(0%, -50%) rotate(45deg);
+    }
+    100% {
+        transform: translate(0, -50%) rotate(0);
+    }
+}
+
+@keyframes animation-square-4 {
+    0% {
+        transform: translate(-50%, 0) rotate(0);
+    }
+    10% {
+        transform: translate(-50%, 0) rotate(0);
+    }
+    25% {
+        transform: translateX(-50%) rotate(45deg);
+    }
+    50% {
+        transform: translate(-50%, -30%) rotate(45deg);
+    }
+    75% {
+        transform: translate(-50%, 0) rotate(45deg);
+    }
+    100% {
+        transform: translate(-50%, 0) rotate(0);
+    }
+}
