@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#challenge25 ul {
+    display: flex;
+    list-style-type: none;
+}
+#challenge25 ul li {
+    margin: 0 20px;
+}
+#challenge25 ul li label input {
+    opacity: 0;
+}
+#challenge25 ul li label .icon  i{
+    color: #333;
+    font-size: 50px;
+    cursor: pointer;
+}
+#challenge25 ul li label input[type="checkbox"]:checked ~ .icon i {
+    animation: change-color linear infinite 10s;
+}
+
+@keyframes change-color {
+    0% {
+        color: #333;
+    }
+    25% {
+        color: #d70000;
+    }
+    50% {
+        color: #00c9bc;
+    }
+    75% {
+        color: #ff880a;
+    }
+    100% {
+        color: #333;
+    }
+}
