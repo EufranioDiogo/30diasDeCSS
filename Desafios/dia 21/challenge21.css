@@ -12,7 +12,6 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    animation: move-snake 10s linear infinite;
 }
 
 #challenge21 .container span {
@@ -73,23 +72,5 @@ body {
     }
     100% {
         background-color: #00bedf;
-    }
-}
-
-@keyframes move-snake {
-    0% {
-        transform: translateX(0)
-    }
-    25% {
-        transform: translateX(-100%)
-    }
-    50% {
-        transform: translateX(0)
-    }
-    75% {
-        transform: translateX(100%)
-    }
-    100% {
-        transform: translateX(0)
     }
 }

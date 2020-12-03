@@ -16,7 +16,8 @@ body {
     box-shadow: 0 0 5px #3333331c;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    transition: 0.5s
+    transition: 0.5s;
+    overflow: hidden;
 }
 #challenge20 a::after {
     content: '';

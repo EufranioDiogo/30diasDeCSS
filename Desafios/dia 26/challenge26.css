@@ -7,14 +7,14 @@ body {
     background-color: #212121;
 }
 
-.line {
+#challenge26 .line {
     width: 300px;
     border-bottom: 4px solid white;
     position: relative;
     animation: animateline 10s linear infinite;
 }
 
-.hexagon {
+#challenge26 .hexagon {
     position: absolute;
     left: 0;
     bottom: 14px;
@@ -25,7 +25,7 @@ body {
     bottom: 10px;
 }
 
-.hexagon:before {
+#challenge26 .hexagon:before {
     content: "";
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@ body {
     transform: rotate(60deg);
 }
 
-.hexagon:after {
+#challenge26 .hexagon:after {
     content: "";
     position: absolute;
     top: 0;
