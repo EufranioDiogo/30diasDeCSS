@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.037);
+}
+.nav label {
+    display: none;
+}
+.nav input {
+    display: none;
+}
+.nav .menu {
+    height: 100%;
+    position: relative;
+}
+.nav .menu a {
+    padding: 10px 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: rgba(51, 68, 68, 0.726);
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+}
+.nav .menu a:last-child {
+    margin-right: 20px;
+    color: #05a8ffb9;
+}
+
+.nav .menu a:hover {
+    color: #333;
+}
+.nav .menu a:last-child:hover {
+    color: #05a8ff;
+}
+
+@media only screen and (max-width: 765px){
+    .nav .menu {
+        display: none;
+    }
+    .nav label {
+        display: inline-block;
+        font-size: 40px;
+    }
+    .nav input {
+        display: inline-block;
+        opacity: 0;
+    }
+    .nav input[type="checkbox"]:checked ~ .menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        margin-top: 50px;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.037);
+        height: auto;
+    }
+
+}
