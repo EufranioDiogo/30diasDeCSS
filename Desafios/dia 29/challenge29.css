@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
 }
-.nav {
+#challenge29 .nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -10,17 +10,17 @@ body {
     padding: 10px 0;
     border-bottom: 1px solid rgba(51, 51, 51, 0.037);
 }
-.nav label {
+#challenge29 .nav label {
     display: none;
 }
-.nav input {
+#challenge29 .nav input {
     display: none;
 }
-.nav .menu {
+#challenge29 .nav .menu {
     height: 100%;
     position: relative;
 }
-.nav .menu a {
+#challenge29 .nav .menu a {
     padding: 10px 5px;
     margin: 0 5px;
     text-decoration: none;
@@ -32,31 +32,31 @@ body {
     position: relative;
     display: inline-block;
 }
-.nav .menu a:last-child {
+#challenge29 .nav .menu a:last-child {
     margin-right: 20px;
     color: #05a8ffb9;
 }
 
-.nav .menu a:hover {
+#challenge29 .nav .menu a:hover {
     color: #333;
 }
-.nav .menu a:last-child:hover {
+#challenge29 .nav .menu a:last-child:hover {
     color: #05a8ff;
 }
 
 @media only screen and (max-width: 765px){
-    .nav .menu {
+    #challenge29 .nav .menu {
         display: none;
     }
-    .nav label {
+    #challenge29 .nav label {
         display: inline-block;
         font-size: 40px;
     }
-    .nav input {
+    #challenge29 .nav input {
         display: inline-block;
         opacity: 0;
     }
-    .nav input[type="checkbox"]:checked ~ .menu {
+    #challenge29 .nav input[type="checkbox"]:checked ~ .menu {
         display: flex;
         flex-direction: column;
         position: fixed;
