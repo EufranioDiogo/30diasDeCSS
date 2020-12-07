@@ -40,7 +40,7 @@ body
     transform: rotate(90deg)translateY(-15px);
 }
 .explosion:nth-child(5)
-{
+{ 
     transform: rotate(120deg)translateY(-15px);
 }
 .explosion:nth-child(6)
